@@ -2,10 +2,6 @@
 /**
  * Alpha Color Picker Customizer Control
  *
- * This control adds a second slider for opacity to the stock WordPress color picker,
- * and it includes logic to seamlessly convert between RGBa and Hex color values as
- * opacity is added to or removed from a color.
- *
  * This Alpha Color Picker is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
@@ -19,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this Alpha Color Picker. If not, see <http://www.gnu.org/licenses/>.
  */
-class Customize_Alpha_Color_Control extends WP_Customize_Control {
+class PostMag_Customize_Alpha_Color_Control extends WP_Customize_Control {
 	/**
 	 * Official control name.
 	 */
