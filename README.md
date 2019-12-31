@@ -6,7 +6,7 @@
 To install include alpha-color-picker.php file in the root of your theme or plugins in customizer.php file.
 
 ```php
-require get_template_directory() . '/inc/alpha-color-picker.php';
+require get_template_directory() . '/alpha-color-picker.php';
 ```
 
 
